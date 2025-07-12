@@ -7,20 +7,27 @@ const initialOrders = [
 	{
 		id: 'ORD123',
 		user: 'Anaya Kapoor',
-		item: 'Vintage Denim Jacket',
+		item: 'T-shirt',
 		price: 40,
 		status: 'Pending',
 	},
 	{
 		id: 'ORD124',
 		user: 'Rohan Mehta',
-		item: 'Ethnic Kurta Set',
+		item: 'T-shirt',
 		price: 25,
 		status: 'Pending',
 	},
 	{
 		id: 'ORD125',
-		user: 'Zara Khan',
+		user: 'T-shirt',
+		item: 'Summer Dress',
+		price: 30,
+		status: 'Pending',
+	},
+	{
+		id: 'ORD126',
+		user: 'Jeans',
 		item: 'Summer Dress',
 		price: 30,
 		status: 'Pending',
@@ -58,7 +65,7 @@ export default function ManageOrders() {
 						<div className="flex-1">
 							<h3 className="text-lg font-semibold">{order.item}</h3>
 							<p className="text-sm text-gray-400">
-								Order ID: {order.id} | Buyer: {order.user} | ₹{order.price}
+								Order ID: {order.id} 
 							</p>
 							<p className="text-sm mt-1">
 								Status: <span className={`font-semibold ${order.status === 'Shipped' ? 'text-green-400' : 'text-yellow-400'}`}>{order.status}</span>
