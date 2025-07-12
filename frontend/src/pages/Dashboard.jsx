@@ -75,6 +75,20 @@ const Dashboard = () => {
           </p>
         </div>
       </div>
+
+      {/* 🎁 Donation Points Card */}
+      <div
+        onClick={() => alert('Thank you for your contribution! 🙌')}
+        className="mt-12 w-full max-w-xl bg-yellow-100 dark:bg-yellow-800 text-yellow-900 dark:text-yellow-100 px-6 py-5 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer"
+      >
+        <h3 className="text-2xl font-bold mb-2">🎁 Your Impact</h3>
+        <p className="text-lg">
+          👕 Clothes Donated: <span className="font-semibold">3</span>
+        </p>
+        <p className="text-lg">
+          💰 Donation Points: <span className="font-semibold">30</span>
+        </p>
+      </div>
     </div>
   );
 };
