@@ -23,7 +23,7 @@ export const registerUser = async (req, res) => {
 
     res.status(201).json({
       user: {
-        id: user._id,
+        _id: user._id,  // ✅ Fix here
         name: user.name,
         email: user.email,
         profileImage: `${req.protocol}://${req.get('host')}/uploads/${user.profileImage}`
@@ -49,7 +49,7 @@ export const loginUser = async (req, res) => {
 
     res.status(200).json({
       user: {
-        id: user._id,
+        _id: user._id,  // ✅ Fix here
         name: user.name,
         email: user.email,
         profileImage: `${req.protocol}://${req.get('host')}/uploads/${user.profileImage}`
@@ -60,4 +60,3 @@ export const loginUser = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-
