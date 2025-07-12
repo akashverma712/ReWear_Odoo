@@ -6,26 +6,34 @@ import { toast } from 'react-toastify';
 const initialListings = [
 	{
 		id: 'LIST001',
-		title: 'Oversized Hoodie',
-		seller: 'Anaya Kapoor',
-		category: 'Winterwear',
-		price: 30,
+		
+		seller: 'Akash Verma',
+		category: 'T-shirt',
+		
 		image: 'https://source.unsplash.com/400x400/?hoodie',
 	},
 	{
 		id: 'LIST002',
-		title: 'Denim Jeans',
-		seller: 'Rohan Mehta',
-		category: 'Casual',
-		price: 20,
+	
+		seller: 'Akash Verma',
+		category: 'T-shirt',
+		
 		image: 'https://source.unsplash.com/400x400/?jeans',
 	},
 	{
 		id: 'LIST003',
-		title: 'Kurti Set',
-		seller: 'Zara Khan',
+		
+		seller: 'Akash Verma',
 		category: 'Ethnic',
-		price: 25,
+		
+		image: 'https://source.unsplash.com/400x400/?kurti',
+	},
+	{
+		id: 'LIST003',
+		
+		seller: 'Niraj Prajapati',
+		category: 'Jeans',
+		
 		image: 'https://source.unsplash.com/400x400/?kurti',
 	},
 ];

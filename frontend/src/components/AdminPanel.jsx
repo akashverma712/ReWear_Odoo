@@ -7,28 +7,37 @@ import ManageListings from './ManageListings';
 const initialUsers = [
 	{
 		id: 1,
-		name: 'Anaya Kapoor',
-		email: 'anaya@example.com',
+		name: 'Akash Verma',
+		email: 'rockingav9876@gmail.com',
 		avatar: 'https://i.pravatar.cc/150?img=1',
 		actions: ['Approve', 'Remove'],
 		isApproved: false,
 	},
 	{
 		id: 2,
-		name: 'Rohan Mehta',
-		email: 'rohan@example.com',
+		name: 'Akash Verma',
+		email: 'rockingav9876@gmail.com',
 		avatar: 'https://i.pravatar.cc/150?img=2',
 		actions: ['Approve', 'Remove'],
 		isApproved: false,
 	},
 	{
 		id: 3,
-		name: 'Zara Khan',
-		email: 'zara@example.com',
+		name: 'Akash Verma',
+		email: 'rockingav9876@gmail.com',
 		avatar: 'https://i.pravatar.cc/150?img=3',
 		actions: ['Approve', 'Remove'],
 		isApproved: false,
 	},
+	{
+		id: 4,
+		name: 'Niraj Prajapati',
+		email: 'nirajk546@gmail.com',
+		avatar: 'https://i.pravatar.cc/150?img=3',
+		actions: ['Approve', 'Remove'],
+		isApproved: false,
+	},
+	
 ];
 
 export default function AdminPanel() {
